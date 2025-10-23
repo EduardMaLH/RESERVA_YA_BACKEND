@@ -1,4 +1,4 @@
-# Express Supabase MVC
+#  MVC
 
 This project is a backend application built with Node.js, Express, and Supabase, following the MVC (Model-View-Controller) architecture. It provides a simple API for managing users.
 
@@ -13,42 +13,30 @@ This project is a backend application built with Node.js, Express, and Supabase,
   - **utils/**: Utility functions that can be used throughout the application.
   - **app.js**: The entry point of the application.
 
-## Installation
+backend del proyecto, desarrollado bajo la arquitectura Modelo–Vista–Controlador (MVC) utilizando Node.js y Express.js. El sistema se integra con Supabase como servicio de base de datos y autenticación, gestionando las operaciones CRUD y la lógica de negocio de la aplicación. El proyecto está estructurado para garantizar escalabilidad, modularidad y separación de responsabilidades, facilitando el mantenimiento y la extensión de nuevas funcionalidades.
 
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
+Características principales:
 
-2. Navigate to the project directory:
-   ```
-   cd express-supabase-mvc
-   ```
+Conexión a base de datos PostgreSQL mediante Supabase.
 
-3. Install the dependencies:
-   ```
-   npm install
-   ```
+Arquitectura MVC (Modelos, Controladores, Rutas y Configuración).
 
-4. Create a `.env` file in the root directory and add your Supabase URL and key:
-   ```
-   SUPABASE_URL=<your-supabase-url>
-   SUPABASE_KEY=<your-supabase-key>
-   ```
+Servidor Express configurado con CORS y dotenv.
 
-## Usage
+Controladores y modelos desacoplados para un flujo de datos limpio.
 
-To start the application, run:
-```
-npm start
-```
+Preparado para integrarse con un frontend independiente (React, Next.js, etc.).
 
-The server will start on the specified port, and you can access the API at `http://localhost:<port>/api/users`.
+Compatible con despliegues en Render, Railway, Vercel u otros servicios Node.js.
 
-## API Endpoints
+Tecnologías:
 
-- `GET /api/users`: Retrieves a list of users from the Supabase database.
+Node.js
 
-## License
+Express.js
 
-This project is licensed under the MIT License.
+Supabase (Base de datos y autenticación)
+
+Dotenv
+
+CORS
